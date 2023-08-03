@@ -18,9 +18,7 @@ export default function Home () {
     }
 
     const [ linear, setLinear ] = useState({code: colorGradient(), showModal: false}) 
-    console.log(linear);
        
-
     useEffect(() => {
         setLinear({...linear, code: colorGradient()})
     // eslint-disable-next-line react-hooks/exhaustive-deps
